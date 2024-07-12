@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body,
+h1,
+h2,
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+}
+
+.arkaplan {
+  background-color: #25373d;
+}
+.kapsayici {
+  width: 960px;
+  margin: 0 auto;
+}
+.ust {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 200px;
+}
+.ust .logo {
+  text-align: center;
+  color: #ffff;
+}
+.ust .logo h1 {
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+}
+.ust .logo h1::first-letter {
+  color: #fcb941;
+}
+.ust .logo h1:hover::first-letter {
+  background-color: #fcb941;
+  color: #ffff;
+}
+.ust .logo h2 {
+  font-size: 2rem;
+}
+
+.ust .menu ul {
+  display: flex;
+  gap: 10px;
+}
+
+.ust .menu ul a {
+  color: #ffff;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 0 2rem;
+}
+.ust .menu ul a:hover {
+  color: #fcb941;
+}
+.orta .bolum1 {
+  margin-top: 20px;
+  border: 10px solid #25373d;
+  padding: 20px;
+}
+.orta .bolum1 img {
+  display: block;
+  width: 100%;
+}
+.orta .bolum2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.orta .bolum2 .kutu {
+  flex-basis: 290px;
+}
+.orta .bolum2 .kutu h2 {
+  font-size: 20px;
+}
+.orta .bolum2 .kutu p {
+  font-size: 16px;
+}
+
+.orta .bolum3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20;
+}
+.orta .bolum3 h1 {
+  font-size: 25px;
+}
+.orta .bolum3 p {
+  font-size: 16px;
+}
+.alt {
+  display: flex;
+  padding: 20px 0;
+  margin-top: 20px;
+  gap: 20px;
+}
+.alt .baglanti {
+  flex-grow: 1;
+}
+.alt .baglanti ul li {
+  border-bottom: dotted 1px #fcb941;
+  margin: 5px 0;
+}
+.alt .baglanti a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #fcb941;
+}
+
+.cizgi {
+  border-top: dotted 2px #fcb941;
+  margin: 20px 0;
+}
+.alt-kenar {
+  border-bottom: 20px solid #fcb941;
+}
